@@ -9,11 +9,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=10" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>@Model.CurrentPage.MetaTitle</title>
+        @*To prevent duplication of identitical pages*@
         @Html.CanonicalLink()
         @Html.AlternateLinks()
         @Styles.Render("~/bundles/css")
         @Scripts.Render("~/bundles/js")
-        @Html.RequiredClientResources("Header") @*Enable components to require resources. For an example, see the view for VideoBlock.*@
+        @*Enable components to require resources. For an example, see the view for VideoBlock.*@
+        @Html.RequiredClientResources("Header")
     </head>
 
     <body>
