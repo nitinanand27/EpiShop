@@ -24,10 +24,12 @@ namespace Epishop.Business.Initialization
 
             bundles.Add(new StyleBundle("~/bundles/css")
                 .Include("~/Static/css/bootstrap.css", new CssRewriteUrlTransform())
-                .Include("~/Static/css/bootstrap-responsive.css")
-                .Include("~/Static/css/media.css")
+                .Include("~/Static/css/bootstrap-responsive.css","~/Static/css/media.css")
                 .Include("~/Static/css/style.css", new CssRewriteUrlTransform())
                 .Include("~/Static/css/editmode.css"));
+
+            // it overrides <compilation> <debug = true/false> in web.config file
+            //BundleTable.EnableOptimizations = true; //do not simplify files by
         }
 
         public void Uninitialize(InitializationEngine context)
