@@ -23,9 +23,11 @@
         {
             Html.RenderPartial("Readonly", Model);
         }
-
+        @*Link showing choices like dashboard, CMS edit and now even logout*@
         @Html.RenderEPiServerQuickNavigator()
+        @*Renders a hidden input element with a data-epi-full-refresh-property-names attribute containing a comma separated list of names of properties that requires a full page refresh when edited.*@
         @Html.FullRefreshPropertiesMetaData()
+
         <div class="container">
             @if(!Model.Layout.HideHeader)
             {
