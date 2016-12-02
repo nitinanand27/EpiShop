@@ -1,2 +1,5 @@
 ﻿/*changing file     change*/
-body    
+body    {
+    height:auto;
+    glyph-orientation-horizontal:inherit;
+}
