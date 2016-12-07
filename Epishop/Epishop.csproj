@@ -365,6 +365,7 @@
     <Compile Include="Business\UIDescriptors\ContainerPageUIDescriptor.cs" />
     <Compile Include="Controllers\ContactBlockController.cs" />
     <Compile Include="Controllers\DefaultPageController.cs" />
+    <Compile Include="Controllers\EventPageController.cs" />
     <Compile Include="Controllers\FindSearchPageController.cs" />
     <Compile Include="Controllers\ImageFileController.cs" />
     <Compile Include="Controllers\PageControllerBase.cs" />
@@ -383,6 +384,7 @@
     <Compile Include="Models\Blocks\ButtonBlock.cs" />
     <Compile Include="Models\Blocks\ContactBlock.cs" />
     <Compile Include="Models\Blocks\EditorialBlock.cs" />
+    <Compile Include="Models\Blocks\Eventblock.cs" />
     <Compile Include="Models\Blocks\FormBlock.cs" />
     <Compile Include="Models\Blocks\JumbotronBlock.cs" />
     <Compile Include="Models\Blocks\PageListBlock.cs" />
@@ -492,6 +494,7 @@
     <Content Include="Static\gfx\searchbuttonsmall.png" />
     <Content Include="Static\gfx\track.jpg" />
     <Content Include="Static\html\error.htm" />
+    <Content Include="Static\img\event-tent-icon-camping-tent.jpg" />
     <Content Include="Static\img\glyphicons-halflings-white.png" />
     <Content Include="Static\img\glyphicons-halflings.png" />
     <Content Include="Static\js\bootstrap.js" />
@@ -566,6 +569,8 @@
     <Content Include="Views\FindSearchPage\Index.cshtml" />
     <Content Include="package.json" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Shared\Blocks\EventBlock.cshtml" />
+    <Content Include="Views\EventPage\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
