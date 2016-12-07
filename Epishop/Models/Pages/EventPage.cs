@@ -7,9 +7,10 @@ using EPiServer.SpecializedProperties;
 
 namespace Epishop.Models.Pages
 {
-    [ContentType(DisplayName = "EventPage", GUID = "16da29ce-95f3-4880-ab54-f412a01ae0d1", Description = "")]
-    public class EventPage : SitePageData
-    {        
+    [ContentType(DisplayName = "EventPage", GUID = "5ab72018-aac4-4149-9c7c-640351e2e240", Description = "")]
+    public class EventPage : PageData
+    {
+        /*
                 [CultureSpecific]
                 [Display(
                     Name = "Main body",
@@ -17,8 +18,6 @@ namespace Epishop.Models.Pages
                     GroupName = SystemTabNames.Content,
                     Order = 1)]
                 public virtual XhtmlString MainBody { get; set; }
-
-        [Display(Name = "Header text", Description ="Heading for Event page", GroupName = SystemTabNames.Content, Order = 10)]
-        public virtual string Header{ get; set; }
+         */
     }
 }
