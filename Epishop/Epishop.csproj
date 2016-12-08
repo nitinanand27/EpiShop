@@ -401,6 +401,7 @@
     <Compile Include="Models\Pages\FindSearchPage.cs" />
     <Compile Include="Models\Pages\IHasRelatedContent.cs" />
     <Compile Include="Models\Pages\ISearchPage.cs" />
+    <Compile Include="Models\Pages\ItemPage.cs" />
     <Compile Include="Models\Pages\LandingPage.cs" />
     <Compile Include="Models\Pages\NewsPage.cs" />
     <Compile Include="Models\Pages\ProductPage.cs" />

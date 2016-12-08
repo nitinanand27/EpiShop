@@ -1,8 +1,6 @@
-﻿@model Epishop.Models.Pages.EventPage
-    @{
-        Layout = "";
-}
+﻿@model IPageViewModel<Epishop.Models.Pages.EventPage>
+
 <div>
-    @Html.PropertyFor(x=>x.HeadingText)
+    @Html.PropertyFor(x=>x.CurrentPage.HeadingText)
 </div>
-@Html.PropertyFor(x=>x.Eventblock)
+@Html.PropertyFor(x=>x.CurrentPage.Eventblock)
