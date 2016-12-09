@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using EPiServer.Core;
 using EPiServer.DataAbstraction;
 using EPiServer.DataAnnotations;
+using EPiServer.Web;
 
 namespace Epishop.Models.Blocks
 {
@@ -19,6 +20,7 @@ namespace Epishop.Models.Blocks
         public virtual DateTime DateTime { get; set; }
 
         [Display(Name = "Event Image", Description = "image picture", Order = 4, GroupName = SystemTabNames.Content)]
+        [UIHint(UIHint.Image)]
         public virtual ContentReference Image { get; set; }
 
     }

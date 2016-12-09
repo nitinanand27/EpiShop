@@ -340,6 +340,7 @@
     <Compile Include="Business\ContentLocator.cs" />
     <Compile Include="Business\EditorDescriptors\ContactPageSelectionFactory.cs" />
     <Compile Include="Business\EditorDescriptors\ContactPageSelector.cs" />
+    <Compile Include="Business\EditorDescriptors\LanguageSelectionFactory.cs" />
     <Compile Include="Business\EditorDescriptors\StringListEditorDescriptor.cs" />
     <Compile Include="Business\EmailAddressAttribute.cs" />
     <Compile Include="Business\IModifyLayout.cs" />

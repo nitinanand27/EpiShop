@@ -49,6 +49,7 @@ namespace Epishop.Models.Pages
 
         [Display(GroupName = Global.GroupNames.SiteSettings)]
         public virtual SiteLogotypeBlock SiteLogotype { get; set; }
+        
 
     }
 }
